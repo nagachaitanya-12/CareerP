@@ -1,0 +1,41 @@
+/* Home.css */
+
+.home-container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    justify-content: center; /* Center elements vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px; /* Padding around the container */
+    text-align: center; /* Center text alignment */
+}
+
+.home-container h1 {
+    font-size: 2.5em; /* Larger font size for the heading */
+    color: #007bff; /* Blue color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.home-container p {
+    font-size: 1.2em; /* Font size for the paragraph */
+    color: #333; /* Darker color for the text */
+    line-height: 1.6; /* Improved line height for readability */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+.home-container button {
+    background-color: #007bff; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 1em; /* Font size for the button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+/* Hover effect for button */
+.home-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

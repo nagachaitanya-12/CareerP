@@ -1,0 +1,38 @@
+/* Offerings.css */
+
+.offerings-container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    justify-content: center; /* Center elements vertically */
+    padding: 40px; /* Padding around the container */
+    background-color: #f8f9fa; /* Light background color */
+    text-align: center; /* Center text alignment */
+}
+
+.offerings-container h2 {
+    font-size: 2em; /* Larger font size for the heading */
+    color: #007bff; /* Blue color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.offerings-container ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.offerings-container li {
+    font-size: 1.2em; /* Font size for the list items */
+    color: #333; /* Darker color for the text */
+    margin: 10px 0; /* Space between list items */
+    padding: 10px; /* Padding inside list items */
+    background-color: #ffffff; /* White background for list items */
+    border-radius: 5px; /* Rounded corners for list items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s; /* Smooth transformation on hover */
+}
+
+/* Hover effect for list items */
+.offerings-container li:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+}

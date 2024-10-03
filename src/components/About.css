@@ -1,0 +1,23 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    height: 100vh; /* Full height of the viewport */
+    padding: 20px;
+    background-color: #f0f8ff; /* Light background color */
+    text-align: center; /* Center text */
+  }
+  
+  .about-container h2 {
+    font-size: 2.5rem; /* Font size for the heading */
+    margin-bottom: 10px; /* Space below the heading */
+  }
+  
+  .about-container p {
+    font-size: 1.2rem; /* Font size for the paragraph */
+    max-width: 600px; /* Max width for readability */
+    line-height: 1.5; /* Line height for better spacing */
+    color: #333; /* Text color */
+  }
+  
